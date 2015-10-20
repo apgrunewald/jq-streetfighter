@@ -16,6 +16,7 @@ body {
 .ryu {
 	width: 659px;
 	height: 494px;
+	position: absolute;
 }
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
@@ -51,3 +52,29 @@ body {
 	z-index: 10;
 	
 }
+.text-content{
+	position: absolute;
+	left: 650px;
+	height: 425px;
+	width: 600px;
+	padding-top: 75px;
+}
+.how-to {
+	display: none;
+	color: red;
+	font-family: comical;
+	font-size: 50px;
+	width: 600px;
+}
+.how-to p {
+	width: 50%;
+	color: black;
+	font-size: 24px;
+	line-height: 45px;
+}
+
+.how-to p + p {
+	margin-left: 275px;
+}
+
+
